@@ -2,7 +2,7 @@
 
 <?php
 
-echo "Hello World";
+echo "Hello World";//kendall, eugenia, 
 
 ?>
 
@@ -83,6 +83,7 @@ function HelloWorld4() {
 	
 	// This is now an array
 	$pieces = explode(" ", $string);
+	//print_r($echo)
 	echo $pieces[0]." ".$pieces[1];
 }
 
