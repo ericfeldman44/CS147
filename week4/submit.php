@@ -43,12 +43,14 @@
 			$name = $_POST["name"];
 			$book = $_POST["book"];
 			$email = $_POST["email"];
+			/*mysql_query("INSERT INTO "*/
+			
 			$t = time();
 			
 			// Insert into orders
 			// but oops query is not defined... yet
 			
-			$query = "";
+			$query = "insert into orders (name, email, book) values('$name', '$email', '$book')";
 			
 			$result = mysql_query($query);
 			
